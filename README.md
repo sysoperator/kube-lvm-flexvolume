@@ -39,13 +39,13 @@ The driver will create a logical volume and the volume will also be mounted as /
 Options
 =======
 
-Following options may be passed:
+Following options are required:
 
 *  volumeID - Name of logical volume.
 *  size - Size to allocate for the new logical volume. Accepts any value supported by --size parameter of [lvcreate](http://man7.org/linux/man-pages/man8/lvcreate.8.html).
 *  volumegroup - Name of volume group.
 
-And optional:
+Optional options may be passed:
 
 *  thinpool - Name of thin pool.
 *  mountoptions - Additional options passed to mount. (e.g. noatime)
